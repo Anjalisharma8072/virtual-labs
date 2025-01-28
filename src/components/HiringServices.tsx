@@ -1,5 +1,5 @@
 import React from 'react';
-
+import image from "../logo/image.png";
 const HiringServices: React.FC = () => {
   const team = [
     "Mr. Ajay Kant Upadhyay", "Ms. Shivangi Gupta", "Mr. Anand Swarup Chandrakar",
@@ -37,7 +37,9 @@ const HiringServices: React.FC = () => {
             </div>
           ))}
         </div>
+        <img src={image} alt='imageee'></img>
       </div>
+
     </section>
   );
 };
